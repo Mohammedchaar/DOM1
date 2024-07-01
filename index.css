@@ -1,0 +1,31 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.quantity-btn, .delete-btn, .like-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.like-btn {
+    color: rgb(201, 75, 75);
+}
+
+.price {
+    margin-left: auto;
+}
+
+.total-price {
+    text-align: right;
+    font-weight: bold;
+}
